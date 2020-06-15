@@ -1,0 +1,103 @@
+var obj =
+{
+	/*
+		Everywhere the emailchar appears on values, it will be substituted by "@". This
+		is to make more difficult the life of e-mail address crawlers.
+	*/
+	"emailchar": "ⓐ",
+	
+	"ganalytics": "UA-629709-5",
+	
+	"name": {
+		"first": "Avi",
+		"last": "Alkalay",
+	},
+	"title": "Data Scientist, Data Engineer, Teacher and Hacker",
+	"company": "CI&T and Digital House",
+	"department": "Data",
+
+	"columns": {
+		"1": ["phone", "publications", "other","mail"],
+		"2": ["social", "",            "",     "qrcode"]
+	},
+	
+	"section": {
+		"phone": [
+			{
+				"value": "+55 (11) 99659-9059",
+				"label": "mobile",
+				"microformatTag": "mobile",
+				"vcfTag": "mobile" 
+			},
+			{
+				"value": "avibrazilⓐgmail.com",
+				"label": "facetime"
+			},
+			{
+				"value": "avibrazilⓐgmail.com",
+				"label": "hangouts"
+			},
+			{
+				"value": "avibrazil",
+				"label": "skype"
+			},
+		],
+
+		"mail": [
+			{
+				"value": "aviⓐciandt.com",
+				"label": "work"
+			},
+			{
+				"value": "aviⓐunix.sh",
+				"label": "personal"
+			},
+		],
+		
+		"social": [
+			{
+				"value": "avibrazil",
+				"label": "linkedin"
+			},
+			{
+				"value": "avibrazil",
+				"label": "facebook"
+			},
+			{
+				"value": "avibrazil",
+				"label": "github"
+			}
+		],
+		
+		"publications": [
+			{
+				"value": "Avi.Alkalay.net",
+				"label": "blog",
+				"protocol": "https"
+			},
+			{
+				"value": "fb.com/AviOnInformationTechnology",
+				"label": "facebook",
+				"protocol": "https"
+			},
+			{
+				"value": "Avi.Alkalay.net/bio",
+				"label": "minibio",
+				"protocol": "https"
+			}
+		],
+				
+		"other": [
+			{
+				"label": "Bitcoin",
+				"value": "12c8eL6HVeNgXPf8dyoymgVahJWqgnc4Gk"
+			}
+		],
+		
+		"qrcode": [
+			{
+				"label": "Scan with iPhone camera, Wallet or any QR reader"
+			}
+		]
+	}	
+};
